@@ -1,0 +1,27 @@
+document.write("</p>" + "E para Excelente");
+document.write("</p>" + "V para Muito Bom");
+document.write("</p>" + "G para Bom");
+document.write("</p>" + "A para Razoável");
+document.write("</p>" + "R para Reprovado");
+
+var letra = prompt("Digite uma letra");
+
+letra = letra.toLowerCase();
+
+if (letra == "e"){
+	alert("A nota do aluno é excelente");
+} else
+if (letra == "v"){
+	alert("A nota do aluno é muito boa");
+} else
+if (letra == "g"){
+	alert("A nota do aluno é boa");
+} else
+if (letra == "a"){
+	alert("A nota do aluno é razoável");
+} else
+if (letra == "r"){
+	alert("O aluno está reprovado");
+} else {
+	alert("Letra inválida");
+}
